@@ -1,0 +1,13 @@
+{
+	"name": "add-firewalll-list",
+	"script": "./index.js",
+	"autorestart": true,
+	"watch": true,
+	"ignore_watch": [
+		"node_modules"
+	],
+	"env_production": {
+		"NODE_ENV": "production"
+	},
+	"time": true
+}
